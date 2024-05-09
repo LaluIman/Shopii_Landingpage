@@ -12,7 +12,7 @@
 }
 
 :root{
-    --main-color:rgb(226, 110, 27);
+    --main-color:rgb(244, 119, 30);
 }
 
 .bg{
@@ -213,6 +213,43 @@ section{
     margin: 1rem 0 3rem;
 }
 
+.abg{
+  background-image: url(img/bg2.png);
+}
+
+.now{
+  justify-content: center;
+  text-align: center;
+  vertical-align: middle;
+  margin-bottom: 6rem;
+}
+
+.now img{
+  width: 50%;
+  margin-top: -5rem;
+  margin-bottom: 1rem;
+}
+
+.nowtext{
+  margin-top: 1rem;
+  font-size: 3.5rem;
+  color: black;
+  margin-bottom: 1rem;
+}
+
+.nowtext span{
+  color: var(--main-color);
+}
+
+.nowbtn{
+  margin: 1rem;
+  background-color: var(--main-color);
+    color: white;
+    padding: 10px 50px ;
+    font-size: 1rem;
+    font-weight: 500;
+    transition: .5s ease;
+}
 
 .footer-distributed{
     background: var(--main-color);
@@ -378,7 +415,7 @@ section{
       display: block;
       width: 100%;
       margin-bottom: 40px;
-      text-align: center;
+      text-align: left;
     }
   
     .footer-distributed .footer-center i{
@@ -430,5 +467,17 @@ section{
 
     .heading{
         font-size: 2.5rem;
+    }
+
+    .abg{
+      margin-bottom: 2rem;
+    }
+
+    .abg img{
+      width: 100%;
+    }
+
+    .nowtext{
+      font-size: 3rem;
     }
 }
