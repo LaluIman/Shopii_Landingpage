@@ -141,7 +141,7 @@ section{
 }
 
 .gets{
-    background-color: rgb(255, 106, 0);
+    background-color: var(--main-color);
     color: white;
     padding: 10px 50px ;
     font-size: 1rem;
@@ -150,7 +150,7 @@ section{
 }
 
 .gets:hover{
-    background-color: rgb(226, 110, 27);
+    background-color: orange;
 }
 
 .laptop{
@@ -249,6 +249,10 @@ section{
     font-size: 1rem;
     font-weight: 500;
     transition: .5s ease;
+}
+
+.nowbtn:hover{
+  background-color: orange;
 }
 
 .footer-distributed{
